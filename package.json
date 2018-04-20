@@ -1,0 +1,53 @@
+{
+    "name": "hip",
+    "displayName": "HIP Support",
+    "description": "Provides syntax highlighting and snippets for HIP assembly language",
+    "version": "0.0.1",
+    "publisher": "LGaljo",
+    "homepage": "https://github.com/LGaljo/vscode-hip-support",
+    "icon": "images/icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LGaljo/vscode-hip-support"
+    },
+    "bugs": {
+        "url": "https://github.com/LGaljo/vscode-hip-support/issues",
+        "email": "luka.galjot@gmail.com"
+    },
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Languages",
+        "Snippets"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "hip",
+                "aliases": [
+                    "HIP Assembly",
+                    "hip"
+                ],
+                "extensions": [
+                    ".s",
+                    ".asm"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "hip",
+                "scopeName": "source.hip",
+                "path": "./syntaxes/hip.tmLanguage"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "hip",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
