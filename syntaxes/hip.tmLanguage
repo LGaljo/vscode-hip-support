@@ -23,7 +23,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(lb|lbu|lh|lhi|lhu|lw|sb|sh|sw|add|addi|addu|addui|sub|subi|subu|subui|and|andi|or|ori|xor|xor|not|sll|slli|sra|srai|srl|srli|seq|seqi|sgt|sgti|sgtu|sgtui|slt|slti|sltu|sltui|sne|snei|beq|bne|call|j|rfe|trap|halt|nop|di|ei|mover|movre)\b</string>
+			<string>\b(lb|lbu|lh|lhi|lhu|lw|sb|sh|sw|add|addi|addu|addui|sub|subi|subu|subui|and|andi|or|ori|xor|xori|not|sll|slli|sra|srai|srl|srli|seq|seqi|sgt|sgti|sgtu|sgtui|slt|slti|sltu|sltui|sne|snei|beq|bne|call|j|rfe|trap|halt|nop|di|ei|mover|movre)\b</string>
 			<key>name</key>
 			<string>support.function.hip</string>
 		</dict>
@@ -189,7 +189,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(^[ \t]+)?(?=#)</string>
+			<string>(^[ \t]+)?(?=;)</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
@@ -204,7 +204,7 @@
 			<array>
 				<dict>
 					<key>begin</key>
-					<string>#</string>
+					<string>;</string>
 					<key>beginCaptures</key>
 					<dict>
 						<key>0</key>
