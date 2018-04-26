@@ -1,7 +1,7 @@
 {
     "name": "hip",
     "displayName": "HIP Support",
-    "description": "Provides syntax highlighting and snippets for HIP assembly language",
+    "description": "Provides syntax highlighting and snippets for HIP assembly language. HIP Assembly is used on Faculty of Computer and Information Science at University of Ljubljana for educational purposes.",
     "version": "1.0.0",
     "publisher": "LGaljo",
     "homepage": "https://github.com/LGaljo/vscode-hip-support",
