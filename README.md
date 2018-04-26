@@ -1,12 +1,16 @@
 # HIP support for VS Code
 
 ## Features
-This This VSCode extension provides basic MIPS colorization and snippets support.
+This This VSCode extension provides HIP syntax colorization and snippets support.
 
 # Sample
 ![sample](images/sample.png)
 
 # Release Notes
+
+# 1.0.0
+
+* Added snippets for most of HIP functions
 
 ## 0.0.1
 

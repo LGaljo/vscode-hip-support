@@ -2,7 +2,7 @@
     "name": "hip",
     "displayName": "HIP Support",
     "description": "Provides syntax highlighting and snippets for HIP assembly language",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "LGaljo",
     "homepage": "https://github.com/LGaljo/vscode-hip-support",
     "icon": "images/icon.png",
